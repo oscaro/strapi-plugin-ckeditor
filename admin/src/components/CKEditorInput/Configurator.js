@@ -338,7 +338,7 @@ export default class Configurator {
   constructor ( fieldConfig ) {
     this.fieldConfig = fieldConfig;
   }
-
+  // config loaded here
   getEditorConfig() {
     const config = this._getBaseConfig();
 
